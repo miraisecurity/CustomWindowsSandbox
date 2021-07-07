@@ -1,0 +1,14 @@
+<Configuration>
+ <VGpu>Enable</VGpu>
+ <VideoInput>Enable</VideoInput>
+<AudioInput>Enable</AudioInput> 
+ <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\CWS\Downloads</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+ </MappedFolders>
+ <LogonCommand>
+    <Command>C:\Users\WDAGUtilityAccount\Desktop\Downloads\Sandbox.bat</Command>
+  </LogonCommand>
+</Configuration>
